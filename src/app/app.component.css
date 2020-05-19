@@ -1,0 +1,15 @@
+.header {
+    height: 70px;
+    background-color: green;
+}
+.side-nav {
+    background-color: red;
+    height: 500px;
+}
+.links {
+    display: block;
+}
+
+.body{
+    background-color: blue;
+}

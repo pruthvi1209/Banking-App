@@ -1,3 +1,15 @@
-<h1> HELLO WORLD</h1>
-<app-trial *ngIf="trial === 1" ></app-trial>
-<button (click)="fire()"> CLICK ME </button>
+<div class="container">
+    <div class="header row">
+        <h1> HELLO WORLD</h1>
+    </div>
+    <div class="row main-content">
+        <div class="side-nav col-sm-3">
+            <a routerLink="/trialComponent" class="links" routerLinkActive="active">My TAG</a>
+            <a routerLink="/secondComponent" class="links" routerLinkActive="active"> Second Component</a>
+        </div>
+        <div class="body col-sm-9 ">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
+
